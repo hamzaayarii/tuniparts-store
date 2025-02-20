@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sign Up | TUNIPARTS</title>
-    <link rel="stylesheet" href="styles.css">
+    <title>Contact Us | TUNIPARTS</title>
+    <link rel="stylesheet" href="styles1.css">
 </head>
 <body>
     <header>
@@ -17,30 +17,41 @@
             <a href="parts.html">Parts</a>
             <a href="brands.html">Brands</a>
             <a href="oils.html">Oils & Additives</a>
-            <a href="contact.html">Contact</a>
+            <a href="contact.html" class="active">Contact</a>
             <a href="referral.html">Referral</a>
             <a href="favorites.html">My Favorites</a>
             <a href="cart.html">My Cart</a>
             <a href="account.html">My Account</a>
         </nav>
     </header>
+    
     <main>
-        <img src="images/photo1.jpg" alt="Sign Up Image" class="signup-image">
-        <form id="signupForm" novalidate>
-            <label for="username">Enter Username</label>
-            <input type="text" id="username" name="username" placeholder="Your username" required>
-            <div id="usernameError" class="error-message"></div>
-            <label for="number">Enter Number</label>
-            <input type="tel" id="number" name="number" placeholder="Your phone number" required>
-            <div id="numberError" class="error-message"></div>
-            <label for="email">Enter Email</label>
+        <h2>CONTACT US</h2>
+                <form id="contactForm" novalidate>
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" placeholder="Your name.." required>
+
+            <label for="email">Email</label>
             <input type="email" id="email" name="email" placeholder="Your email" required>
-            <div id="emailError" class="error-message"></div>
-            <label for="password">Enter Password</label>
-            <input type="password" id="password" name="password" placeholder="Your password" required>
-            <div id="passwordError" class="error-message"></div>
-            <button type="submit" id="submitButton">SIGN UP</button>
+
+            <label for="description">Description of the problem</label>
+            <textarea id="description" name="description" placeholder="Description of the problem" required></textarea>
+
+            <button type="submit">Send</button>
         </form>
+
+        <!-- Carte Google Maps -->
+        <div class="map-container">
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12764.123456789012!2d10.123456789012345!3d36.12345678901234!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMzbCsDA3JzI0LjQiTiAxMMKwMDcnNDEuMiJF!5e0!3m2!1sen!2stn!4v1234567890123!5m2!1sen!2stn"
+                width="100%"
+                height="400"
+                style="border:0;"
+                allowfullscreen=""
+                loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade">
+            </iframe>
+        </div>
     </main>
     
     <footer>
