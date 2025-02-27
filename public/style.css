@@ -566,8 +566,20 @@ video {
   height: 2rem;
 }
 
+.h-16 {
+  height: 4rem;
+}
+
 .w-8 {
   width: 2rem;
+}
+
+.w-16 {
+  width: 4rem;
+}
+
+.flex-col {
+  flex-direction: column;
 }
 
 .items-center {
@@ -578,4 +590,13 @@ video {
   --tw-space-x-reverse: 0;
   margin-right: calc(1rem * var(--tw-space-x-reverse));
   margin-left: calc(1rem * calc(1 - var(--tw-space-x-reverse)));
+}
+
+.bg-gray-200 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(229 231 235 / var(--tw-bg-opacity, 1));
+}
+
+.p-4 {
+  padding: 1rem;
 }
