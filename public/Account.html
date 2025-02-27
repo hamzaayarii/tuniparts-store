@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Account</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div>
+            <nav class="flex space-x-4 items-center">
+                <img src="../images/Logo.ico" alt="TuniParts Logo" class="w-8 h-8">
+                <img src="../icons/home.png" alt="home Icon">
+                <a href="#">Home</a>
+                <img src="../icons/parts.png" alt="Parts Icon">
+                <a href="#">Parts</a>
+                <img src="../icons/brands.png" alt="Brands Icon">
+                <a href="#">Brands</a>
+                <img src="../icons/oils.png" alt="Oils & Additives Icon">
+                <a href="#">Oils & Additives</a>
+                <img src="../icons/contact.png" alt="Contact Icon">
+                <a href="#">Contact</a>
+                <img src="../icons/user.png" alt="Referral Icon">
+                <a href="#">Referral</a>
+                <img src="../icons/favorites.png" alt="My Favorites Icon">
+                <a href="#">My Favorites</a>
+                <img src="../icons/cart.png" alt="My Cart Icon">
+                <a href="#">My Cart</a>
+                <img src="../icons/user.png" alt="My Account Icon">
+                <a href="#">My Account</a>
+            </nav>
+        </div>
+    </header>
+    
+    <section>
+        <h2>FIND YOUR CAR PARTS</h2>
+        <div>
+            <input list="brands" id="brand" name="brand" placeholder="Brand">
+            <datalist id="brands">
+                <option value="Audi">
+                <option value="BMW">
+                <option value="Chevrolet">
+            </datalist>
+            <input list="models" id="model" name="model" placeholder="Model">
+            <datalist id="models">
+                <option value="A3">
+                <option value="A4">
+                <option value="A5">
+            </datalist>
+            <input list="engines" id="engine" name="engine" placeholder="Engine">
+            <datalist id="engines">
+                <option value="1.6 TDI">
+                <option value="2.0 TDI">
+                <option value="3.0 TDI">
+            </datalist>
+            <input type="text" placeholder="Find a part">
+            <button>🔍</button>
+            <input type="text" placeholder="Find by chassis number">
+            <button>🔍</button>
+        </div>
+    </section>
+    
+    <main>
+        <h2>Account</h2>
+        <div>
+            <div>
+                <img src="../images/profile_pic.png" alt="Profile Pic">
+                <p>Name</p>
+                <a href="#">Change your password</a>
+            </div>
+            <div>
+                <nav>
+                    <a href="#">My Account</a>
+                    <a href="#">My Orders</a>
+                    <a href="#">My Addresses</a>
+                    <a href="#">Coupons</a>
+                </nav>
+                <form>
+                    <label>Last Name: <input type="text"></label>
+                    <label>First Name: <input type="text"></label>
+                    <label>Email: <input type="email"></label>
+                    <label>Phone: <input type="text"></label>
+                    <button type="submit">Save</button>
+                </form>
+            </div>
+        </div>
+    </main>
+    
+    <footer>
+        <div>
+            <h3>Contact-us</h3>
+            <p>18 abcd, Avenue Alain Savary, Ariana</p>
+            <p>MOB: (+216) 29 123 145 / (+216) 56 547 789</p>
+            <p>Opening Hours: Monday to Friday: 8h - 18h, Saturday: 8h - 13h</p>
+        </div>
+        <div>
+            <h3>Information</h3>
+            <a href="#">Our history</a>
+            <a href="#">Contact-us</a>
+            <a href="#">Terms and Conditions</a>
+            <a href="#">About us</a>
+        </div>
+        <div>
+            <h3>WE ACCEPT</h3>
+            <img src="../icons/visa.png" alt="visa Icon">
+            <img src="../icons/mastercard.png" alt="mastercard Icon">
+        </div>
+    </footer>
+</body>
+</html>
