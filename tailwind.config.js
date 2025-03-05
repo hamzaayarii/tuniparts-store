@@ -10,6 +10,8 @@ module.exports = {
         'Primary': '#CD170B',
         'Secondary': '#010035',
         'Background': '#D6D6D6',
+        'HeaderColor': '#E6E6E6',
+        'HeaderColor2': '#010035',
         'Available': '#42840F'
       },
       fontFamily: {
