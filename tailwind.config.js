@@ -12,7 +12,11 @@ module.exports = {
         'Background': '#D6D6D6',
         'Available': '#42840F',
         'NightBlue': '#010035',
-        'Prime': '#CD170B'
+        'Prime': '#CD170B',
+        'GreyProduct': '#E6E6E6',
+        'GreytableProduct' : '#D6D6D6',
+        'LightGreytableProduct': '#ECECEC',
+        'GreyRectangleProduct': '#EEEEEE'
       },
       fontFamily: {
         'Roboto': ['Roboto', 'sans-serif']
