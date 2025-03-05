@@ -1,17 +1,18 @@
-// tailwind.config.js
-
+/** @type {import('tailwindcss').Config} */
 module.exports = {
   content: [
-    './public/**/*.html',    // Scan HTML files for Tailwind classes
-    './src/**/*.{js,jsx,ts,tsx}', // Scan JS/TS files if you're using Tailwind in JS/TS code
+    "./public/**/*.html",
+    "./src/**/*.{js,jsx,ts,tsx}",
   ],
   theme: {
     extend: {
       colors: {
-        'primary': '#CD170B',
-        'secondary': '#010035',
-        'background': '#D6D6D6',
-        'available': '#42840F'
+        'Primary': '#CD170B',
+        'Secondary': '#010035',
+        'Background': '#D6D6D6',
+        'HeaderColor': '#E6E6E6',
+        'HeaderColor2': '#010035',
+        'Available': '#42840F'
       },
       fontFamily: {
         'Roboto': ['Roboto', 'sans-serif']
@@ -27,3 +28,6 @@ module.exports = {
   },
   plugins: [],
 }
+
+//hetha lezem nhouto fih ay haja tet3awed
+//heberger site 3al vercel
