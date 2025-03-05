@@ -29,5 +29,3 @@ module.exports = {
   plugins: [],
 }
 
-//hetha lezem nhouto fih ay haja tet3awed
-//heberger site 3al vercel
