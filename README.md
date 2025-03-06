@@ -28,7 +28,8 @@ Make sure you have installed Node.js and npm on your machine.
 
 ### Installation Steps
 Clone this repository to your local machine:
-  `git clone https://github.com/your-username/tuniparts.git`
+
+  `git clone https://github.com/hamzaayarii/tuniparts.git`
 
 2. Navigate to the project directory:
    
