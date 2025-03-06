@@ -14,30 +14,35 @@ We are a team of 5 members, each responsible for two interfaces:
 - **Souhail**: Worked on the Admin Dashboard and Order Management interfaces.
 - **Amine**: Worked on the Admin Dashboard and Order Management interfaces.
 
-## Instructions pour exécuter le projet
+## 🔗 Live Demo
+Check out the live version on Vercel:  
+👉 [Tuniparts Website](https://tuni-parts-9k2j.vercel.app/index.html)
 
-### Prérequis
+---
 
-Assurez-vous d'avoir installé [Node.js](https://nodejs.org/) et [npm](https://www.npmjs.com/) sur votre machine.
+## ⚙️ Installation & Local Setup
 
-### Étapes d'installation
 
-1. Clonez ce dépôt sur votre machine locale :
+### Prerequisites
+Make sure you have installed Node.js and npm on your machine.
+
+### Installation Steps
+Clone this repository to your local machine:
   `git clone https://github.com/your-username/tuniparts.git`
 
-2. Accédez au répertoire du projet :
+2. Navigate to the project directory:
    
   `cd tuniparts`
 
-3. Installez les dépendances du projet avec npm :
+3. Install project dependencies using npm:
    
   `npm install`
 
-4. Une fois les dépendances installées, construisez le projet avec la commande suivante :
+4. Once the dependencies are installed, build the project with the following command:
    
   `npm run build`
 
-5. Vous pouvez maintenant lancer le projet localement en exécutant :
+5. You can now run the project locally by executing:
    
   `npm start`
 
