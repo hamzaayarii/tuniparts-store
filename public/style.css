@@ -1092,6 +1092,11 @@ video {
   background-color: rgb(1 0 53 / var(--tw-bg-opacity, 1));
 }
 
+.bg-InputBox {
+  --tw-bg-opacity: 1;
+  background-color: rgb(217 217 217 / var(--tw-bg-opacity, 1));
+}
+
 .bg-LightGreytableProduct {
   --tw-bg-opacity: 1;
   background-color: rgb(236 236 236 / var(--tw-bg-opacity, 1));
@@ -1332,6 +1337,16 @@ video {
   line-height: 2.5rem;
 }
 
+.text-contactusbody {
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.text-footerText {
+  font-size: 32px;
+  font-weight: 500;
+}
+
 .text-lg {
   font-size: 1.125rem;
   line-height: 1.75rem;
@@ -1339,7 +1354,12 @@ video {
 
 .text-mainTitle {
   font-size: 32px;
-  font-weight: bold;
+  font-weight: 700;
+}
+
+.text-profileText {
+  font-size: 20px;
+  font-weight: 400;
 }
 
 .text-sm {
@@ -1349,7 +1369,7 @@ video {
 
 .text-subheading {
   font-size: 20px;
-  font-weight: medium;
+  font-weight: 500;
 }
 
 .text-xl {
