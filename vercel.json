@@ -1,0 +1,8 @@
+{
+    "rewrites": [
+        {
+            "source": "/(.*)",
+            "destination": "../TuniParts/public/index.html"
+        }
+    ]
+}
