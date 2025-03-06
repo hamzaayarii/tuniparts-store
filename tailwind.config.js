@@ -14,9 +14,12 @@ module.exports = {
         'NightBlue': '#010035',
         'Prime': '#CD170B',
         'GreyProduct': '#E6E6E6',
-        'GreytableProduct' : '#D6D6D6',
+        'GreytableProduct': '#D6D6D6',
         'LightGreytableProduct': '#ECECEC',
-        'GreyRectangleProduct': '#EEEEEE'
+        'GreyRectangleProduct': '#EEEEEE',
+        'HeaderColor': '#E6E6E6',
+        'HeaderColor2': '#010035',
+        'Available': '#42840F'
       },
       fontFamily: {
         'Roboto': ['Roboto', 'sans-serif']
