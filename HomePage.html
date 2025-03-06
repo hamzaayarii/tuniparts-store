@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Car Parts Website</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+</head>
+<body class="bg-white">
+    <header>
+        <div class="bg-[#0A0F2C]">
+            <div class="container mx-auto px-4 py-4 flex justify-between items-center">
+                <div class="w-40">
+                    <img src="images/Tuniparts_Logo.png" alt="Logo" class="h-10">
+                </div>
+                <nav class="hidden lg:block">
+                    <ul class="flex space-x-8">
+                        <li><a href="#" class="text-white hover:text-blue-300">Home</a></li>
+                        <li><a href="#" class="text-white hover:text-blue-300">Parts</a></li>
+                        <li><a href="#" class="text-white hover:text-blue-300">Brands</a></li>
+                        <li><a href="#" class="text-white hover:text-blue-300">Oils & Additives</a></li>
+                        <li><a href="#" class="text-white hover:text-blue-300">Contact</a></li>
+                        <li><a href="./Review.html" class="text-white hover:text-blue-300">Review</a></li>
+                        <li><a href="#" class="text-white hover:text-blue-300">Referral</a></li>
+                        <li><a href="#" class="text-white hover:text-blue-300">My Favorites</a></li>
+                        <li><a href="#" class="text-white hover:text-blue-300">My Cart</a></li>
+                        <li><a href="#" class="text-white hover:text-blue-300">My Account</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+        
+        <div class="bg-[#0A0F2C] py-16">
+            <div class="container mx-auto px-4">
+                <h1 class="text-4xl font-bold text-center mb-8 text-red-600">FIND YOUR CAR PARTS</h1>
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-4">
+                    <input type="text" placeholder="Brand" class="p-3 rounded-md border border-gray-300 focus:outline-none focus:ring-2 focus:ring-blue-500 w-full">
+                    <input type="text" placeholder="Model" class="p-3 rounded-md border border-gray-300 focus:outline-none focus:ring-2 focus:ring-blue-500 w-full">
+                    <input type="text" placeholder="Engine" class="p-3 rounded-md border border-gray-300 focus:outline-none focus:ring-2 focus:ring-blue-500 w-full">
+                    <div class="flex">
+                       
+                        <input type="text" placeholder="Find a part" class="p-3 rounded-md border border-gray-300 focus:outline-none focus:ring-2 focus:ring-blue-500 w-full">
+                    </div>
+                    <div class="flex">
+                        <input type="text" placeholder="Find by Chassis Number" class="p-3 rounded-l-md border border-r-0 border-gray-300 focus:outline-none focus:ring-2 focus:ring-blue-500 flex-grow">
+                        <button class="bg-blue-600 text-white px-6 rounded-r-md hover:bg-blue-700">🔍</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <div class="relative w-full">
+        <div class="slider-container relative overflow-hidden h-[400px]">
+            <button class="slider-nav prev absolute left-4 top-1/2 transform -translate-y-1/2 bg-black bg-opacity-50 text-white p-4 rounded-full z-10 hover:bg-opacity-75">&#10094;</button>
+            <div class="slider relative h-full">
+                <div class="slide absolute w-full h-full opacity-0 transition-opacity duration-500 active">
+                    <img src="images/cover.webp" alt="Suzuki Jimny Parts Catalog" class="w-full h-full object-cover">
+                    <div class="absolute inset-0 flex flex-col items-center justify-center text-white bg-black bg-opacity-40">
+                        <h2 class="text-4xl font-bold mb-2">COMING SOON!</h2>
+                        <h3 class="text-2xl">NOUVEAU CATALOGUE</h3>
+                        <h3 class="text-2xl">DE PIÈCES POUR</h3>
+                        <h2 class="text-4xl font-bold">JIMNY</h2>
+                    </div>
+                </div>
+                <div class="slide absolute w-full h-full opacity-0 transition-opacity duration-500">
+                    <img src="images/mercedes.jpg" alt="Suzuki Jimny Parts" class="w-full h-full object-cover">
+                    <div class="absolute inset-0 flex flex-col items-center justify-center text-white bg-black bg-opacity-40">
+                        <h2 class="text-4xl font-bold mb-2">DISCOVER</h2>
+                        <h3 class="text-2xl">OUR NEW COLLECTION</h3>
+                    </div>
+                </div>
+                <div class="slide absolute w-full h-full opacity-0 transition-opacity duration-500">
+                    <img src="images/cover2.png" alt="Suzuki Parts" class="w-full h-full object-cover">
+                    <div class="absolute inset-0 flex flex-col items-center justify-center text-white bg-black bg-opacity-40">
+                        <h2 class="text-4xl font-bold mb-2">QUALITY PARTS</h2>
+                        <h3 class="text-2xl">FOR YOUR JIMNY</h3>
+                    </div>
+                </div>
+            </div>
+            <button class="slider-nav next absolute right-4 top-1/2 transform -translate-y-1/2 bg-black bg-opacity-50 text-white p-4 rounded-full z-10 hover:bg-opacity-75">&#10095;</button>
+            <div class="slider-dots absolute bottom-4 left-1/2 transform -translate-x-1/2 flex space-x-2">
+                <span class="dot w-3 h-3 rounded-full bg-white opacity-50 cursor-pointer"></span>
+                <span class="dot w-3 h-3 rounded-full bg-white opacity-50 cursor-pointer"></span>
+                <span class="dot w-3 h-3 rounded-full bg-white opacity-50 cursor-pointer"></span>
+            </div>
+        </div>
+    </div>
+
+   
+    <section class="py-12 bg-gray-50">
+        <h2 class="text-3xl font-bold text-center mb-8">PARTS CATEGORIES</h2>
+        <div class="container mx-auto px-4 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+            <div class="bg-white rounded-lg shadow-lg p-6 transition-transform hover:scale-105">
+                <div class="w-24 h-24 mx-auto mb-4">
+                    <img src="images/engine.png" alt="Pièces Moteur" class="w-full h-full object-contain">
+                </div>
+                <h3 class="text-xl font-semibold text-center">ENGINE PARTS</h3>
+                <div class="text-center text-gray-600 mt-2">&#9660;</div>
+            </div>
+            
+            <div class="bg-white rounded-lg shadow-lg p-6 transition-transform hover:scale-105">
+                <div class="w-24 h-24 mx-auto mb-4">
+                    <img src="images/suspension.png" alt="Directions Suspension Train" class="w-full h-full object-contain">
+                </div>
+                <h3 class="text-xl font-semibold text-center">SUSPENSION PARTS</h3>
+                <div class="text-center text-gray-600 mt-2">&#9660;</div>
+            </div>
+            
+            <div class="bg-white rounded-lg shadow-lg p-6 transition-transform hover:scale-105">
+                <div class="w-24 h-24 mx-auto mb-4">
+                    <img src="images/filter.png" alt="Filtration" class="w-full h-full object-contain">
+                </div>
+                <h3 class="text-xl font-semibold text-center">FILTRATION</h3>
+                <div class="text-center text-gray-600 mt-2">&#9660;</div>
+            </div>
+            
+            <div class="bg-white rounded-lg shadow-lg p-6 transition-transform hover:scale-105">
+                <div class="w-24 h-24 mx-auto mb-4">
+                    <img src="images/brake.png" alt="Freinage" class="w-full h-full object-contain">
+                </div>
+                <h3 class="text-xl font-semibold text-center">BRAKING</h3>
+                <div class="text-center text-gray-600 mt-2">&#9660;</div>
+            </div>
+        </div>
+    </section>
+
+    
+
+    <section class="bg-[#0A0F2C] text-white py-12">
+        <div class="container mx-auto px-4 text-center">
+            <h2 class="text-3xl font-bold mb-4">40% OFF ON COMPLETE CAR SERVICE</h2>
+            <p class="mb-6 text-gray-300">Contact Us.</p>
+            <button class="bg-white text-[#0A0F2C] px-8 py-3 rounded-full font-semibold hover:bg-gray-100 transition-colors">
+                Call Us (+216) 29 123 145
+            </button>
+        </div>
+    </section>
+
+    
+
+  
+
+    <section class="py-16 bg-white">
+        <div class="container mx-auto px-4 text-center">
+            <h2 class="text-2xl font-bold mb-4">OUR MARQUES</h2>
+            <div class="relative">
+                <div class="slider-container overflow-hidden">
+                    <div class="slider flex transition-transform duration-500">
+                        <div class="brand-item flex-shrink-0 w-1/4 p-4">
+                            <img src="images/dodge.jpg" alt="Dodge" class="mx-auto">
+                        </div>
+                        <div class="brand-item flex-shrink-0 w-1/4 p-4">
+                            <img src="images/volkswagen.png" alt="Volkswagen" class="mx-auto">
+                        </div>
+                        <div class="brand-item flex-shrink-0 w-1/4 p-4">
+                            <img src="images/infiniti.png" alt="Infiniti" class="mx-auto">
+                        </div>
+                        <div class="brand-item flex-shrink-0 w-1/4 p-4">
+                            <img src="images/kia.jpg" alt="Kia" class="mx-auto">
+                        </div>
+                    </div>
+                </div>
+                <button class="absolute left-0 top-1/2 transform -translate-y-1/2 bg-[#0A0F2C] text-white p-2 rounded-full" id="prevBtn">&#10094;</button>
+                <button class="absolute right-0 top-1/2 transform -translate-y-1/2 bg-[#0A0F2C] text-white p-2 rounded-full" id="nextBtn">&#10095;</button>
+            </div>
+        
+        </div>
+    </section>
+
+    <section class="py-16">
+        <div class="container mx-auto px-4">
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+                <!-- Quality -->
+                <div class="flex flex-col items-center text-center">
+                    <div class="bg-[#0A0F2C] rounded-full p-6 mb-4">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
+                        </svg>
+                    </div>
+                    <h3 class="text-xl font-bold mb-2">QUALITÉ ORIGINALE</h3>
+                </div>
+
+                <!-- Delivery -->
+                <div class="flex flex-col items-center text-center">
+                    <div class="bg-[#0A0F2C] rounded-full p-6 mb-4">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 8h14M5 8a2 2 0 110-4h14a2 2 0 110 4M5 8v10a2 2 0 002 2h10a2 2 0 002-2V8m-9 4h4" />
+                        </svg>
+                    </div>
+                    <h3 class="text-xl font-bold mb-2">LIVRAISON À DOMICILE</h3>
+                </div>
+
+                <!-- Best Price -->
+                <div class="flex flex-col items-center text-center">
+                    <div class="bg-[#0A0F2C] rounded-full p-6 mb-4">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 10h4.764a2 2 0 011.789 2.894l-3.5 7A2 2 0 0115.263 21h-4.017c-.163 0-.326-.02-.485-.06L7 20m7-10V5a2 2 0 00-2-2h-.095c-.5 0-.905.405-.905.905 0 .714-.211 1.412-.608 2.006L7 11v9m7-10h-2M7 20H5a2 2 0 01-2-2v-6a2 2 0 012-2h2.5" />
+                        </svg>
+                    </div>
+                    <h3 class="text-xl font-bold mb-2">LES MEILLEURS PRIX</h3>
+                </div>
+
+                <!-- Customer Service -->
+                <div class="flex flex-col items-center text-center">
+                    <div class="bg-[#0A0F2C] rounded-full p-6 mb-4">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
+                        </svg>
+                    </div>
+                    <h3 class="text-xl font-bold mb-2">SERVICE CLIENT</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <footer class="bg-[#0A0F2C] text-white py-12">
+        <div class="container mx-auto px-4 grid grid-cols-1 md:grid-cols-3 gap-12">
+            <div>
+                <h3 class="text-2xl font-semibold mb-6">Contact-us</h3>
+                <p class="mb-3 text-gray-300">18 abcd, Avenue Alain Savary, Ariana</p>
+                <p class="mb-3 text-gray-300">Mob: (+216) 29 123 145 / (+216) 56 547 789</p>
+                <p class="mb-3 text-gray-300">Monday to Friday: 8 AM - 6 PM</p>
+                <p class="text-gray-300">Saturday: 8 AM - 1 PM</p>
+            </div>
+            <div>
+                <h3 class="text-2xl font-semibold mb-6">Information</h3>
+                <ul class="space-y-3">
+                    <li><a href="#" class="text-gray-300 hover:text-white transition-colors">Our History</a></li>
+                    <li><a href="#" class="text-gray-300 hover:text-white transition-colors">Contact-us</a></li>
+                    <li><a href="#" class="text-gray-300 hover:text-white transition-colors">Terms and Conditions</a></li>
+                    <li><a href="#" class="text-gray-300 hover:text-white transition-colors">About us</a></li>
+                </ul>
+            </div>
+            <div>
+                <h3 class="text-2xl font-semibold mb-6">WE ACCEPT</h3>
+                <div class="flex space-x-4">
+                    <img src="images/visa.png" alt="Visa" class="h-8 opacity-80">
+                    <img src="images/mastercard.png" alt="MasterCard" class="h-8 opacity-80">
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <style>
+        .slide {
+            opacity: 0;
+            transition: opacity 0.5s ease-in-out;
+        }
+        .slide.active {
+            opacity: 1 !important;
+        }
+        
+        .slide:first-child {
+            opacity: 1;
+        }
+    </style>
+
+    <script>
+        const sliderContainer = document.querySelector('.slider-container');
+        const slides = document.querySelectorAll('.slide');
+        const dots = document.querySelectorAll('.dot');
+        const prevBtn = document.querySelector('.prev');
+        const nextBtn = document.querySelector('.next');
+        let currentSlide = 0;
+        let slideInterval;
+
+        function showSlide(index) {
+            slides.forEach(slide => {
+                slide.classList.remove('active');
+                slide.style.opacity = '0';
+            });
+            dots.forEach(dot => dot.classList.remove('active'));
+            
+            slides[index].classList.add('active');
+            slides[index].style.opacity = '1';
+            dots[index].classList.add('active');
+            dots[0].classList.add('active');
+        }
+
+        function nextSlide() {
+            currentSlide = (currentSlide + 1) % slides.length;
+            showSlide(currentSlide);
+        }
+
+        function prevSlide() {
+            currentSlide = (currentSlide - 1 + slides.length) % slides.length;
+            showSlide(currentSlide);
+        }
+
+        function startSlideShow() {
+            slideInterval = setInterval(nextSlide, 4000);
+        }
+
+        function pauseSlideShow() {
+            clearInterval(slideInterval);
+        }
+
+        prevBtn.addEventListener('click', () => {
+            prevSlide();
+            pauseSlideShow();
+            startSlideShow();
+        });
+
+        nextBtn.addEventListener('click', () => {
+            nextSlide();
+            pauseSlideShow();
+            startSlideShow();
+        });
+
+        dots.forEach((dot, index) => {
+            dot.addEventListener('click', () => {
+                currentSlide = index;
+                showSlide(currentSlide);
+                pauseSlideShow();
+                startSlideShow();
+            });
+        });
+
+        sliderContainer.addEventListener('mouseenter', pauseSlideShow);
+        sliderContainer.addEventListener('mouseleave', startSlideShow);
+
+        window.addEventListener('DOMContentLoaded', () => {
+            showSlide(0);
+            startSlideShow();
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reviews - Car Parts Website</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+</head>
+<body class="bg-white">
+    <header>
+        <div class="bg-[#0A0F2C]">
+            <div class="container mx-auto px-4 py-4 flex justify-between items-center">
+                <div class="w-40">
+                    <img src="images/Tuniparts_Logo.png" alt="Logo" class="h-10">
+                </div>
+                <nav class="hidden lg:block">
+                    <ul class="flex space-x-8">
+                        <li><a href="HomePage.html" class="text-white hover:text-blue-300">Home</a></li>
+                        <li><a href="#" class="text-white hover:text-blue-300">Parts</a></li>
+                        <li><a href="#" class="text-white hover:text-blue-300">Brands</a></li>
+                        <li><a href="#" class="text-white hover:text-blue-300">Oils & Additives</a></li>
+                        <li><a href="#" class="text-white hover:text-blue-300">Contact</a></li>
+                        <li><a href="./Review.html" class="text-white hover:text-blue-300">Review</a></li>
+                        <li><a href="#" class="text-white hover:text-blue-300">Referral</a></li>
+                        <li><a href="#" class="text-white hover:text-blue-300">My Favorites</a></li>
+                        <li><a href="#" class="text-white hover:text-blue-300">My Cart</a></li>
+                        <li><a href="#" class="text-white hover:text-blue-300">My Account</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+        
+        <div class="bg-[#0A0F2C] py-16">
+            <div class="container mx-auto px-4">
+                <h1 class="text-4xl font-bold text-center mb-8 text-red-600">FIND YOUR CAR PARTS</h1>
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-4">
+                    <input type="text" placeholder="Brand" class="p-3 rounded-md border border-gray-300 focus:outline-none focus:ring-2 focus:ring-blue-500 w-full">
+                    <input type="text" placeholder="Model" class="p-3 rounded-md border border-gray-300 focus:outline-none focus:ring-2 focus:ring-blue-500 w-full">
+                    <input type="text" placeholder="Engine" class="p-3 rounded-md border border-gray-300 focus:outline-none focus:ring-2 focus:ring-blue-500 w-full">
+                    <div class="flex">
+                        <input type="text" placeholder="Find a part" class="p-3 rounded-md border border-gray-300 focus:outline-none focus:ring-2 focus:ring-blue-500 w-full">
+                    </div>
+                    <div class="flex">
+                        <input type="text" placeholder="Find by Chassis Number" class="p-3 rounded-l-md border border-r-0 border-gray-300 focus:outline-none focus:ring-2 focus:ring-blue-500 flex-grow">
+                        <button class="bg-blue-600 text-white px-6 rounded-r-md hover:bg-blue-700">🔍</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main content section for reviews -->
+    <main class="container mx-auto px-4 py-12">
+        <!-- Review Header Section -->
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-8 items-center mb-16">
+            <div>
+                <h2 class="text-3xl font-bold mb-4">Customer Reviews</h2>
+                <p class="text-gray-600">Read what our customers have to say about TuniParts!</p>
+            </div>
+            <div class="flex justify-end">
+                <img src="images/feedback.png" alt="Reviews" class="max-w-md">
+            </div>
+        </div>
+
+        <!-- Review Submission Section -->
+        <div class="mb-16">
+            <h2 class="text-2xl font-bold mb-8">Review Submission</h2>
+            <form class="max-w-2xl mx-auto">
+                <div class="mb-6">
+                    <label class="block mb-2">Rating</label>
+                    <div class="flex gap-2">
+                        <input type="radio" id="star1" name="rating" class="hidden peer" value="1">
+                        <label for="star1" class="text-3xl cursor-pointer text-gray-300 peer-checked:text-yellow-400">★</label>
+                        <input type="radio" id="star2" name="rating" class="hidden peer" value="2">
+                        <label for="star2" class="text-3xl cursor-pointer text-gray-300 peer-checked:text-yellow-400">★</label>
+                        <input type="radio" id="star3" name="rating" class="hidden peer" value="3">
+                        <label for="star3" class="text-3xl cursor-pointer text-gray-300 peer-checked:text-yellow-400">★</label>
+                        <input type="radio" id="star4" name="rating" class="hidden peer" value="4">
+                        <label for="star4" class="text-3xl cursor-pointer text-gray-300 peer-checked:text-yellow-400">★</label>
+                        <input type="radio" id="star5" name="rating" class="hidden peer" value="5">
+                        <label for="star5" class="text-3xl cursor-pointer text-gray-300 peer-checked:text-yellow-400">★</label>
+                    </div>
+                </div>
+
+                <div class="mb-6">
+                    <label for="name" class="block mb-2">Name</label>
+                    <input type="text" id="name" class="w-full p-3 border rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500">
+                </div>
+
+                <div class="mb-6">
+                    <label for="review" class="block mb-2">Review</label>
+                    <textarea id="review" rows="4" class="w-full p-3 border rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"></textarea>
+                </div>
+
+                <div class="mb-6">
+                    <label for="image" class="block mb-2">Upload Image</label>
+                    <input type="file" id="image" class="w-full p-3 border rounded-md">
+                </div>
+
+                <button type="submit" class="bg-black text-white px-8 py-3 rounded-md hover:bg-gray-800 transition-colors">
+                    Submit
+                </button>
+            </form>
+        </div>
+
+        <!-- Customer Reviews Section -->
+        <div>
+            <h2 class="text-2xl font-bold mb-4">Customer Reviews</h2>
+            <p class="text-gray-600 mb-8">Check out what customers are saying</p>
+
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-6 mb-8">
+                <!-- Review Card 1 -->
+                <div class="border rounded-lg p-6 shadow-sm">
+                    <div class="flex items-center mb-4">
+                        <div class="w-10 h-10 bg-gray-200 rounded-full mr-4">
+                            <img src="images/customers.png"  alt="customer" class="h-10">
+
+                        </div>
+                        <div>
+                            <p class="font-semibold">Customer 1</p>
+                            <div class="text-yellow-400">★★★★★</div>
+                        </div>
+                    </div>
+                    <p class="text-gray-600">Great service overall!</p>
+                </div>
+
+                <!-- Review Card 2 -->
+                <div class="border rounded-lg p-6 shadow-sm">
+                    <div class="flex items-center mb-4">
+                        <div class="w-10 h-10 bg-gray-200 rounded-full mr-4">
+                            <img src="images/customers.png"  alt="customer" class="h-10">
+                        </div>
+                        <div>
+                            <p class="font-semibold">Customer 2</p>
+                            <div class="text-yellow-400">★★★★★</div>
+                        </div>
+                    </div>
+                    <p class="text-gray-600">Quick response and quality parts</p>
+                </div>
+
+                <!-- Review Card 3 -->
+                <div class="border rounded-lg p-6 shadow-sm">
+                    <div class="flex items-center mb-4">
+                        <div class="w-10 h-10 bg-gray-200 rounded-full mr-4">
+                            <img src="images/customers.png"  alt="customer" class="h-10">
+
+                        </div>
+                        <div>
+                            <p class="font-semibold">Customer 3</p>
+                            <div class="text-yellow-400">★★★★★</div>
+                        </div>
+                    </div>
+                    <p class="text-gray-600">Highly recommend TuniParts</p>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer class="bg-[#0A0F2C] text-white py-12">
+        <div class="container mx-auto px-4 grid grid-cols-1 md:grid-cols-3 gap-12">
+            <div>
+                <h3 class="text-2xl font-semibold mb-6">Contact-us</h3>
+                <p class="mb-3 text-gray-300">18 abcd, Avenue Alain Savary, Ariana</p>
+                <p class="mb-3 text-gray-300">Mob: (+216) 29 123 145 / (+216) 56 547 789</p>
+                <p class="mb-3 text-gray-300">Monday to Friday: 8 AM - 6 PM</p>
+                <p class="text-gray-300">Saturday: 8 AM - 1 PM</p>
+            </div>
+            <div>
+                <h3 class="text-2xl font-semibold mb-6">Information</h3>
+                <ul class="space-y-3">
+                    <li><a href="#" class="text-gray-300 hover:text-white transition-colors">Our History</a></li>
+                    <li><a href="#" class="text-gray-300 hover:text-white transition-colors">Contact-us</a></li>
+                    <li><a href="#" class="text-gray-300 hover:text-white transition-colors">Terms and Conditions</a></li>
+                    <li><a href="#" class="text-gray-300 hover:text-white transition-colors">About us</a></li>
+                </ul>
+            </div>
+            <div>
+                <h3 class="text-2xl font-semibold mb-6">WE ACCEPT</h3>
+                <div class="flex space-x-4">
+                    <img src="images/visa.png" alt="Visa" class="h-8 opacity-80">
+                    <img src="images/mastercard.png" alt="MasterCard" class="h-8 opacity-80">
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html> 
