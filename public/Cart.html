@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Account</title>
+    <title>Cart</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -56,24 +56,24 @@
             </nav>
         </div>
         <section class="bg-HeaderColor2 p-4 px-24">
-            <p class="text-center text-Primary text-mainTitle font-bold text-lg">FIND YOUR CAR PARTS</p>
+            <p class="font-Roboto text-center text-Primary text-mainTitle">FIND YOUR CAR PARTS</p>
             <div class="flex justify-center gap-32 mt-4">
                 <div class="flex flex-col items-center">
-                    <p class="text-white text-center font-medium mb-2">FIND BY MODEL</p>
+                    <p class="text-white text-center font-Roboto mb-2 text-subheading">FIND BY MODEL</p>
                     <div class="flex gap-2">
-                        <input list="brands" id="brand" name="brand" placeholder="Brand" class="p-2 w-24 bg-gray-200 rounded-md text-center">
+                        <input list="brands" id="brand" name="brand" placeholder="Brand" class="p-2 w-24 bg-InputBox text-center">
                         <datalist id="brands">
                             <option value="Audi">
                             <option value="BMW">
                             <option value="Chevrolet">
                         </datalist>
-                        <input list="models" id="model" name="model" placeholder="Model" class="p-2 w-24 bg-gray-200 rounded-md text-center">
+                        <input list="models" id="model" name="model" placeholder="Model" class="p-2 w-24 bg-InputBox text-center">
                         <datalist id="models">
                             <option value="A3">
                             <option value="A4">
                             <option value="A5">
                         </datalist>
-                        <input list="engines" id="engine" name="engine" placeholder="Engine" class="p-2 w-24 bg-gray-200 rounded-md text-center">
+                        <input list="engines" id="engine" name="engine" placeholder="Engine" class="p-2 w-24 bg-InputBox text-center">
                         <datalist id="engines">
                             <option value="1.6 TDI">
                             <option value="2.0 TDI">
@@ -83,17 +83,17 @@
                 </div>
         
                 <div class="flex flex-col items-center">
-                    <p class="text-white text-center font-medium mb-2">FIND A PART</p>
+                    <p class="text-white text-center font-Roboto mb-2 text-subheading">FIND A PART</p>
                     <div class="flex">
-                        <input type="text" placeholder="Enter part name" class="p-2 w-64 bg-gray-200 rounded-md text-center">
+                        <input type="text" class="p-2 w-64 bg-InputBox text-center">
                         <button class="p-2">🔍</button>
                     </div>
                 </div>
         
                 <div class="flex flex-col items-center">
-                    <p class="text-white text-center font-medium mb-2">FIND BY CHASSIS NUMBER</p>
+                    <p class="text-white text-center font-Roboto mb-2 text-subheading">FIND BY CHASSIS NUMBER</p>
                     <div class="flex">
-                        <input type="text" placeholder="Enter chassis number" class="p-2 w-64 bg-gray-200 rounded-md text-center">
+                        <input type="text" class="p-2 w-64 bg-InputBox text-center">
                         <button class="p-2">🔍</button>
                     </div>
                 </div>
@@ -161,26 +161,26 @@
     <footer class="bg-[#0A0A32] text-white py-8">
         <div class="max-w-6xl mx-auto flex flex-wrap justify-between px-6">
             <div class="w-full md:w-1/3 mb-6 md:mb-0">
-                <h3 class="text-Primary text-lg font-semibold mb-3">Contact-us</h3>
-                <p class="text-sm">18 abcd, Avenue Alain Savary, Ariana</p>
-                <p class="text-sm">MOB: (+216) 29 123 145 / (+216) 56 547 789</p>
-                <p class="text-sm">Opening Hours:</p>
-                <p class="text-sm">Monday to Friday: 8h - 18h</p>
-                <p class="text-sm">Saturday: 8h - 13h</p>
+                <h3 class="text-Primary text-footerText font-Roboto mb-3">Contact-us</h3>
+                <p class="text-contactusbody">18 abcd, Avenue Alain Savary, Ariana</p>
+                <p class="text-contactusbody">MOB: (+216) 29 123 145 / (+216) 56 547 789</p>
+                <p class="text-contactusbody">Opening Hours:</p>
+                <p class="text-contactusbody">Monday to Friday: 8h - 18h</p>
+                <p class="text-contactusbody">Saturday: 8h - 13h</p>
             </div>
     
             <div class="w-full md:w-1/3 mb-6 md:mb-0">
-                <h3 class="text-Primary text-lg font-semibold mb-3">Information</h3>
+                <h3 class="text-Primary font-Roboto mb-3 text-footerText">Information</h3>
                 <ul class="space-y-2">
-                    <li><a href="#" class="text-sm hover:text-red-400">Our history</a></li>
-                    <li><a href="#" class="text-sm hover:text-red-400">Contact-us</a></li>
-                    <li><a href="#" class="text-sm hover:text-red-400">Terms and Conditions</a></li>
-                    <li><a href="#" class="text-sm hover:text-red-400">About us</a></li>
+                    <li><a href="#" class="text-subheading hover:text-red-400">Our history</a></li>
+                    <li><a href="#" class="text-subheading hover:text-red-400">Contact-us</a></li>
+                    <li><a href="#" class="text-subheading hover:text-red-400">Terms and Conditions</a></li>
+                    <li><a href="#" class="text-subheading hover:text-red-400">About us</a></li>
                 </ul>
             </div>
     
             <div class="w-full md:w-1/3 flex flex-col items-start">
-                <h3 class="text-Primary text-lg font-semibold mb-3">WE ACCEPT</h3>
+                <h3 class="text-Primary font-Roboto mb-3 text-footerText">WE ACCEPT</h3>
                 <div class="flex gap-3">
                     <img src="../icons/visa.png" alt="Visa Icon" class="h-10">
                     <img src="../icons/mastercard.png" alt="Mastercard Icon" class="h-10">

@@ -56,24 +56,24 @@
             </nav>
         </div>
         <section class="bg-HeaderColor2 p-4 px-24">
-            <p class="text-center text-Primary text-mainTitle font-bold text-lg">FIND YOUR CAR PARTS</p>
+            <p class="font-Roboto text-center text-Primary text-mainTitle">FIND YOUR CAR PARTS</p>
             <div class="flex justify-center gap-32 mt-4">
                 <div class="flex flex-col items-center">
-                    <p class="text-white text-center font-medium mb-2">FIND BY MODEL</p>
+                    <p class="text-white text-center font-Roboto mb-2 text-subheading">FIND BY MODEL</p>
                     <div class="flex gap-2">
-                        <input list="brands" id="brand" name="brand" placeholder="Brand" class="p-2 w-24 bg-gray-200 rounded-md text-center">
+                        <input list="brands" id="brand" name="brand" placeholder="Brand" class="p-2 w-24 bg-InputBox text-center">
                         <datalist id="brands">
                             <option value="Audi">
                             <option value="BMW">
                             <option value="Chevrolet">
                         </datalist>
-                        <input list="models" id="model" name="model" placeholder="Model" class="p-2 w-24 bg-gray-200 rounded-md text-center">
+                        <input list="models" id="model" name="model" placeholder="Model" class="p-2 w-24 bg-InputBox text-center">
                         <datalist id="models">
                             <option value="A3">
                             <option value="A4">
                             <option value="A5">
                         </datalist>
-                        <input list="engines" id="engine" name="engine" placeholder="Engine" class="p-2 w-24 bg-gray-200 rounded-md text-center">
+                        <input list="engines" id="engine" name="engine" placeholder="Engine" class="p-2 w-24 bg-InputBox text-center">
                         <datalist id="engines">
                             <option value="1.6 TDI">
                             <option value="2.0 TDI">
@@ -83,17 +83,17 @@
                 </div>
         
                 <div class="flex flex-col items-center">
-                    <p class="text-white text-center font-medium mb-2">FIND A PART</p>
+                    <p class="text-white text-center font-Roboto mb-2 text-subheading">FIND A PART</p>
                     <div class="flex">
-                        <input type="text" placeholder="Enter part name" class="p-2 w-64 bg-gray-200 rounded-md text-center">
+                        <input type="text" class="p-2 w-64 bg-InputBox text-center">
                         <button class="p-2">🔍</button>
                     </div>
                 </div>
         
                 <div class="flex flex-col items-center">
-                    <p class="text-white text-center font-medium mb-2">FIND BY CHASSIS NUMBER</p>
+                    <p class="text-white text-center font-Roboto mb-2 text-subheading">FIND BY CHASSIS NUMBER</p>
                     <div class="flex">
-                        <input type="text" placeholder="Enter chassis number" class="p-2 w-64 bg-gray-200 rounded-md text-center">
+                        <input type="text" class="p-2 w-64 bg-InputBox text-center">
                         <button class="p-2">🔍</button>
                     </div>
                 </div>
@@ -102,40 +102,40 @@
     </header>
     
     <main class="p-8">
-        <h2 class="text-2xl font-bold text-center text-gray-900 mb-6">Account</h2>
-        <div class="flex bg-gray-200 p-6 rounded-lg shadow-lg max-w-4xl mx-auto">
+        <p class=" font-Roboto text-center text-Secondary text-mainTitle mb-6">Account</p>
+        <div class="flex bg-InputBox p-6 rounded-lg shadow-lg max-w-4xl mx-auto">
             <div class="flex flex-col items-center bg-gray-100 p-6 rounded-lg w-1/3">
                 <img src="../images/profile_pic.png" alt="Profile Pic" class="w-24 h-24 rounded-full border-2 border-gray-400 mb-4">
-                <p class="text-gray-900 font-medium">Name</p>
-                <a href="#" class="text-blue-600 text-sm mt-2">Change your password</a>
+                <p class="text-black font-Roboto text-profileText">Name</p>
+                <a href="#" class="text-blue-600 text-contactusbody mt-2 text-profileText">Change your password</a>
             </div>
     
             <div class="w-2/3 p-6">
                 <nav class="flex gap-4 border-b pb-2 mb-4">
-                    <a href="Account.html" class="text-gray-800 font-medium hover:text-blue-600">My Account</a>
-                    <a href="#" class="text-gray-800 font-medium hover:text-blue-600">My Orders</a>
-                    <a href="#" class="text-gray-800 font-medium hover:text-blue-600">My Addresses</a>
-                    <a href="#" class="text-gray-800 font-medium hover:text-blue-600">Coupons</a>
+                    <a href="Account.html" class="text-black font-Roboto text-profileText hover:text-blue-600">My Account</a>
+                    <a href="#" class="text-black font-Roboto text-profileText hover:text-blue-600">My Orders</a>
+                    <a href="#" class="text-black font-Roboto text-profileText hover:text-blue-600">My Addresses</a>
+                    <a href="#" class="text-black font-Roboto text-profileText hover:text-blue-600">Coupons</a>
                 </nav>
     
                 <form class="grid grid-cols-2 gap-4">
                     <label class="block">
-                        <span class="text-gray-700">Last Name:</span>
-                        <input type="text" class="mt-1 p-2 w-full border rounded-md bg-gray-50">
+                        <span class="text-black text-profileText">Last Name:</span>
+                        <input type="text" class="mt-1 p-2 w-full border bg-gray-50">
                     </label>
                     <label class="block">
-                        <span class="text-gray-700">First Name:</span>
-                        <input type="text" class="mt-1 p-2 w-full border rounded-md bg-gray-50">
+                        <span class="text-black text-profileText">First Name:</span>
+                        <input type="text" class="mt-1 p-2 w-full border bg-gray-50">
                     </label>
-                    <label class="block col-span-2">
-                        <span class="text-gray-700">Email:</span>
-                        <input type="email" class="mt-1 p-2 w-full border rounded-md bg-gray-50">
+                    <label class="block">
+                        <span class="text-black text-profileText">Email:</span>
+                        <input type="email" class="mt-1 p-2 w-full border bg-gray-50">
                     </label>
-                    <label class="block col-span-2">
-                        <span class="text-gray-700">Phone:</span>
-                        <input type="text" class="mt-1 p-2 w-full border rounded-md bg-gray-50">
+                    <label class="block">
+                        <span class="text-black text-profileText">Phone:</span>
+                        <input type="text" class="mt-1 p-2 w-full border bg-gray-50">
                     </label>
-                    <button type="submit" class="col-span-2 bg-green-600 text-white font-medium p-2 rounded-md hover:bg-green-700 transition">Save</button>
+                    <button type="submit" class="col-span-2 bg-Available text-white font-Roboto p-2 hover:bg-green-700 transition text-profileText">Save</button>
                 </form>
             </div>
         </div>
@@ -144,26 +144,26 @@
     <footer class="bg-[#0A0A32] text-white py-8">
         <div class="max-w-6xl mx-auto flex flex-wrap justify-between px-6">
             <div class="w-full md:w-1/3 mb-6 md:mb-0">
-                <h3 class="text-Primary text-lg font-semibold mb-3">Contact-us</h3>
-                <p class="text-sm">18 abcd, Avenue Alain Savary, Ariana</p>
-                <p class="text-sm">MOB: (+216) 29 123 145 / (+216) 56 547 789</p>
-                <p class="text-sm">Opening Hours:</p>
-                <p class="text-sm">Monday to Friday: 8h - 18h</p>
-                <p class="text-sm">Saturday: 8h - 13h</p>
+                <h3 class="text-Primary text-footerText font-Roboto mb-3">Contact-us</h3>
+                <p class="text-contactusbody">18 abcd, Avenue Alain Savary, Ariana</p>
+                <p class="text-contactusbody">MOB: (+216) 29 123 145 / (+216) 56 547 789</p>
+                <p class="text-contactusbody">Opening Hours:</p>
+                <p class="text-contactusbody">Monday to Friday: 8h - 18h</p>
+                <p class="text-contactusbody">Saturday: 8h - 13h</p>
             </div>
     
             <div class="w-full md:w-1/3 mb-6 md:mb-0">
-                <h3 class="text-Primary text-lg font-semibold mb-3">Information</h3>
+                <h3 class="text-Primary font-Roboto mb-3 text-footerText">Information</h3>
                 <ul class="space-y-2">
-                    <li><a href="#" class="text-sm hover:text-red-400">Our history</a></li>
-                    <li><a href="#" class="text-sm hover:text-red-400">Contact-us</a></li>
-                    <li><a href="#" class="text-sm hover:text-red-400">Terms and Conditions</a></li>
-                    <li><a href="#" class="text-sm hover:text-red-400">About us</a></li>
+                    <li><a href="#" class="text-subheading hover:text-red-400">Our history</a></li>
+                    <li><a href="#" class="text-subheading hover:text-red-400">Contact-us</a></li>
+                    <li><a href="#" class="text-subheading hover:text-red-400">Terms and Conditions</a></li>
+                    <li><a href="#" class="text-subheading hover:text-red-400">About us</a></li>
                 </ul>
             </div>
     
             <div class="w-full md:w-1/3 flex flex-col items-start">
-                <h3 class="text-Primary text-lg font-semibold mb-3">WE ACCEPT</h3>
+                <h3 class="text-Primary font-Roboto mb-3 text-footerText">WE ACCEPT</h3>
                 <div class="flex gap-3">
                     <img src="../icons/visa.png" alt="Visa Icon" class="h-10">
                     <img src="../icons/mastercard.png" alt="Mastercard Icon" class="h-10">
