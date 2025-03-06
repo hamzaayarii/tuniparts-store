@@ -5,132 +5,137 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>TuniParts - Wheels</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 
-<body>
-
+<body class="bg-gray-100">
     <!-- Navbar -->
-    <header>
-        <img src="tuniparts.png" alt="TUNIPARTS">
-        <div class="logo">TUNIPARTS</div>
-        <nav>
-            <ul>
-                <li><a href="#">Home</a><img src="home.png" alt="home"></li>
-                <li><a href="#">Parts</a><img src="parts.png" alt="parts"></li>
-                <li><a href="#">Brands</a><img src="brands.png" alt="brands"></li>
-                <li><a href="#">Oils & Additives</a><img src="oil_&_additives.png" alt="oils_&_additives"></li>
-                <li><a href="#">Contact</a><img src="contact.png" alt="contact"></li>
-                <li><a href="#">Referral</a><img src="Referral.png" alt="Referral"></li>
-                <li><a href="#">My Favorites</a><img src="my_favorite.png" alt="my_favorite"></li>
-                <li><a href="#">My Cart</a><img src="my_cart.png" alt="my_cart"></li>
-                <li><a href="#">My Account</a><img src="my_account.png" alt="my_account"></li>
-            </ul>
-        </nav>
+    <header class="bg-Grey text-blue p-4">
+        <div class="container mx-auto flex justify-between items-center">
+            <img src="../images/Logo.ico" alt="TuniParts Logo" class="w-12">
+            <nav class="flex space-x-6">
+                <a href="#" class="flex items-center"><img src="../icons/home.png" class="w-6 mr-2">Home</a>
+                <a href="#" class="flex items-center"><img src="../icons/parts.png" class="w-6 mr-2">Parts</a>
+                <a href="#" class="flex items-center"><img src="../icons/brands.png" class="w-6 mr-2">Brands</a>
+                <a href="#" class="flex items-center"><img src="../icons/oils.png" class="w-6 mr-2">Oils & Additives</a>
+                <a href="#" class="flex items-center"><img src="../icons/contact.png" class="w-6 mr-2">Contact</a>
+                <a href="#" class="flex items-center"><img src="../icons/user.png" class="w-6 mr-2">My Account</a>
+            </nav>
+        </div>
     </header>
 
     <!-- Search Section -->
-    <section>
-        <h2>FIND YOUR CAR PARTS</h2>
-        <div>
-            <input type="text" placeholder="Brand">
-            <input type="text" placeholder="Model">
-            <input type="text" placeholder="Engine">
-            <input type="text" placeholder="Find a part">
-            <input type="text" placeholder="Find by chassis number">
+    <section class="bg-NightBlue text-Prime py-4 text-center">
+        <h2 class="text-xl font-bold">FIND YOUR CAR PARTS</h2>
+        <div class="flex justify-center mt-2 space-x-4">
+            <input type="text" placeholder="Brand" class="p-2 rounded-md text-black">
+            <input type="text" placeholder="Model" class="p-2 rounded-md text-black">
+            <input type="text" placeholder="Engine" class="p-2 rounded-md text-black">
+            <input type="text" placeholder="Find a part" class="p-2 rounded-md text-black">
+            <input type="text" placeholder="Find by chassis number" class="p-2 rounded-md text-black">
         </div>
     </section>
 
-    <!-- Main Content -->
-    <div>
 
-        <!-- Sidebar (Filters) -->
-        <aside>
-            <h3>Filter by</h3>
-            <div>
-                <h4>Wheel Type & Accessories</h4>
-                <label><input type="checkbox"> Factory OEM Wheels</label>
-                <label><input type="checkbox"> GLOSS BLACK Wheels</label>
-                <label><input type="checkbox"> PVD Black Chrome Wheels</label>
+
+
+    <!-- Product Section -->
+    <div class="flex flex-col items-center w-full">
+
+        <div class="bg-GreyRectangleProduct p-6 w-[70%] flex shadow-lg">
+
+            <div class="w-[50%] flex items-start justify-start p-4">
+                <img src="../images/wheel.PNG" alt="VOLKSWAGEN GOLF Wheel"
+                    class="w-[600px] h-[600px] object-contain shadow-md">
             </div>
-            <div>
-                <h4>Make</h4>
-                <label><input type="checkbox"> VOLKSWAGEN</label>
-                <label><input type="checkbox"> AUDI</label>
-                <label><input type="checkbox"> BMW</label>
-            </div>
-        </aside>
 
-        <!-- Product List -->
-        <section>
+            <div class="w-[50%] pl-8 flex flex-col justify-start p-4">
+                <h2 class="font-bold text-4xl text-gray-900">VOLKSWAGEN GOLF Wheel</h2>
+                <div class="mt-10">
+                    <table class="mt-2 text-lg">
+                        <tr>
+                            <td class="font-bold text-gray-700 pr-4">Product type:</td>
+                            <td class="text-gray-800">PVD Black Chrome Wheels</td>
+                        </tr>
+                        <tr>
+                            <td class="font-bold text-gray-700 pr-4">SKU:</td>
+                            <td class="text-gray-800">5234</td>
+                        </tr>
+                        <tr>
+                            <td class="font-bold text-gray-700 pr-4">Price:</td>
+                            <td class="text-gray-800">1,899 TND</td>
+                        </tr>
+                    </table>
+                </div>
 
-            <div>
-                <img src="golf_wheel.png" alt="Volkswagen Golf Wheel">
-                <div>
-                    <h3>VOLKSWAGEN GOLF Wheel</h3>
-                    <p><strong>Product type:</strong> Factory OEM Wheels</p>
-                    <p><strong>Price:</strong> 1,399 TND</p>
-                    <button>Order</button>
+                <div class="mt-6">
+                    <button
+                        class="bg-green-600 text-white px-6 py-2 text-md font-semibold rounded shadow-md hover:bg-green-700 transition">
+                        Order
+                    </button>
                 </div>
             </div>
+        </div>
 
-            <div>
-                <img src="passat_wheel.png" alt="Volkswagen Passat Wheel">
-                <div>
-                    <h3>VOLKSWAGEN PASSAT Wheel</h3>
-                    <p><strong>Product type:</strong> GLOSS BLACK Wheels</p>
-                    <p><strong>Price:</strong> 1,499 TND</p>
-                    <button>Order</button>
-                </div>
-            </div>
 
-            <div>
-                <img src="series1_wheel.png" alt="BMW Serie 1 Wheel">
-                <div>
-                    <h3>BMW Serie 1 Wheel</h3>
-                    <p><strong>Product type:</strong> PVD Black Chrome Wheels</p>
-                    <p><strong>Price:</strong> 1,799 TND</p>
-                    <button>Order</button>
-                </div>
-            </div>
-
-            <div>
-                <img src="series2_wheel.png" alt="BMW Serie 2 Wheel">
-                <div>
-                    <h3>BMW Serie 2 Wheel</h3>
-                    <p><strong>Product type:</strong> PVD Black Chrome Wheels</p>
-                    <p><strong>Price:</strong> 1,999 TND</p>
-                    <button>Order</button>
-                </div>
-            </div>
-        </section>
+        <table class="w-[70%] border-collapse border border-gray-300 mt-4 shadow-lg">
+            <tr class="bg-GreytableProduct text-gray-900">
+                <td class="p-3 font-bold border-r border-gray-400 w-1/2">Make</td>
+                <td class="p-3">VOLKSWAGEN</td>
+            </tr>
+            <tr class="bg-LightGreytableProduct">
+                <td class="p-3 font-bold border-r border-gray-400">Model</td>
+                <td class="p-3">GOLF</td>
+            </tr>
+            <tr class="bg-GreytableProduct text-gray-900">
+                <td class="p-3 font-bold border-r border-gray-400">Start year 1</td>
+                <td class="p-3">2019</td>
+            </tr>
+            <tr class="bg-LightGreytableProduct">
+                <td class="p-3 font-bold border-r border-gray-400">End year 1</td>
+                <td class="p-3">2021</td>
+            </tr>
+            <tr class="bg-GreytableProduct text-gray-900">
+                <td class="p-3 font-bold border-r border-gray-400">Wheel Size</td>
+                <td class="p-3">18x7.5</td>
+            </tr>
+        </table>
     </div>
 
+
+
+
+
+
+
+
+
+
     <!-- Footer -->
-    <footer>
-        <div>
-            <h3>Contact-us</h3>
-            <p>18 abcd, Avenue Alain Savary, Ariana</p>
-            <p>MOB: (+216) 29 123 145 / (+216) 56 547 789</p>
-            <p>Opening Hours:</p>
-            <p>Mon-Fri: 8h - 18h</p>
-            <p>Saturday: 8h - 13h</p>
-        </div>
-        <div>
-            <h3>Information</h3>
-            <ul>
-                <li><a href="#">Our history</a></li>
-                <li><a href="#">Contact-us</a></li>
-                <li><a href="#">Terms and Conditions</a></li>
-                <li><a href="#">About us</a></li>
-            </ul>
-        </div>
-        <div>
-            <h3>WE ACCEPT</h3>
-            <img src="visa.png" alt="Visa">
-            <img src="mastercard.png" alt="MasterCard">
+    <footer class="bg-NightBlue text-white mt-10 p-6">
+        <div class="container mx-auto flex justify-between">
+            <div>
+                <h3 class="text-Prime text-lg font-bold">Contact-us</h3>
+                <p>18 abcd, Avenue Alain Savary, Ariana</p>
+                <p>MOB: (+216) 29 123 145 / (+216) 56 547 789</p>
+                <p>Opening Hours: Mon-Fri: 8h - 18h, Sat: 8h - 13h</p>
+            </div>
+            <div>
+                <h3 class="text-Prime text-lg font-bold">Information</h3>
+                <a href="#" class="block">Our history</a>
+                <a href="#" class="block">Contact-us</a>
+                <a href="#" class="block">Terms and Conditions</a>
+                <a href="#" class="block">About us</a>
+            </div>
+            <div>
+                <h3 class="text-Prime text-lg font-bold">WE ACCEPT</h3>
+                <div class="flex space-x-4 mt-2">
+                    <img src="../icons/visa.png" alt="Visa" class="w-12">
+                    <img src="../icons/mastercard.png" alt="MasterCard" class="w-12">
+                </div>
+            </div>
         </div>
     </footer>
-
 </body>
 
 </html>
