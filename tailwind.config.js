@@ -11,6 +11,8 @@ module.exports = {
         'Secondary': '#010035',
         'Background': '#D6D6D6',
         'Available': '#42840F',
+        'HeaderColor': '#E6E6E6',
+        'HeaderColor2': '#010035',
         'NightBlue': '#010035',
         'Prime': '#CD170B',
         'GreyProduct': '#E6E6E6',
