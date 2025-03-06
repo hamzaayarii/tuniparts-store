@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Account</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
     <header>
         <div>
@@ -61,19 +63,22 @@
                 <div class="flex flex-col items-center">
                     <p class="text-white text-center font-Roboto mb-2 text-subheading">FIND BY MODEL</p>
                     <div class="flex gap-2">
-                        <input list="brands" id="brand" name="brand" placeholder="Brand" class="p-2 w-24 bg-InputBox text-center">
+                        <input list="brands" id="brand" name="brand" placeholder="Brand"
+                            class="p-2 w-24 bg-InputBox text-center">
                         <datalist id="brands">
                             <option value="Audi">
                             <option value="BMW">
                             <option value="Chevrolet">
                         </datalist>
-                        <input list="models" id="model" name="model" placeholder="Model" class="p-2 w-24 bg-InputBox text-center">
+                        <input list="models" id="model" name="model" placeholder="Model"
+                            class="p-2 w-24 bg-InputBox text-center">
                         <datalist id="models">
                             <option value="A3">
                             <option value="A4">
                             <option value="A5">
                         </datalist>
-                        <input list="engines" id="engine" name="engine" placeholder="Engine" class="p-2 w-24 bg-InputBox text-center">
+                        <input list="engines" id="engine" name="engine" placeholder="Engine"
+                            class="p-2 w-24 bg-InputBox text-center">
                         <datalist id="engines">
                             <option value="1.6 TDI">
                             <option value="2.0 TDI">
@@ -81,7 +86,7 @@
                         </datalist>
                     </div>
                 </div>
-        
+
                 <div class="flex flex-col items-center">
                     <p class="text-white text-center font-Roboto mb-2 text-subheading">FIND A PART</p>
                     <div class="flex">
@@ -89,7 +94,7 @@
                         <button class="p-2">🔍</button>
                     </div>
                 </div>
-        
+
                 <div class="flex flex-col items-center">
                     <p class="text-white text-center font-Roboto mb-2 text-subheading">FIND BY CHASSIS NUMBER</p>
                     <div class="flex">
@@ -98,17 +103,20 @@
                     </div>
                 </div>
             </div>
-        </section>                
+        </section>
     </header>
-    
+
     <main class="p-8">
         <div class="relative w-full">
             <div class="slider-container relative overflow-hidden h-[400px]">
-                <button class="slider-nav prev absolute left-4 top-1/2 transform -translate-y-1/2 bg-black bg-opacity-50 text-white p-4 rounded-full z-10 hover:bg-opacity-75">&#10094;</button>
+                <button
+                    class="slider-nav prev absolute left-4 top-1/2 transform -translate-y-1/2 bg-black bg-opacity-50 text-white p-4 rounded-full z-10 hover:bg-opacity-75">&#10094;</button>
                 <div class="slider relative h-full">
                     <div class="slide absolute w-full h-full opacity-0 transition-opacity duration-500 active">
-                        <img src="../images/cover.webp" alt="Suzuki Jimny Parts Catalog" class="w-full h-full object-cover">
-                        <div class="absolute inset-0 flex flex-col items-center justify-center text-white bg-black bg-opacity-40">
+                        <img src="../images/cover.webp" alt="Suzuki Jimny Parts Catalog"
+                            class="w-full h-full object-cover">
+                        <div
+                            class="absolute inset-0 flex flex-col items-center justify-center text-white bg-black bg-opacity-40">
                             <h2 class="text-4xl font-bold mb-2">COMING SOON!</h2>
                             <h3 class="text-2xl">NOUVEAU CATALOGUE</h3>
                             <h3 class="text-2xl">DE PIÈCES POUR</h3>
@@ -117,20 +125,23 @@
                     </div>
                     <div class="slide absolute w-full h-full opacity-0 transition-opacity duration-500">
                         <img src="../images/mercedes.jpg" alt="Suzuki Jimny Parts" class="w-full h-full object-cover">
-                        <div class="absolute inset-0 flex flex-col items-center justify-center text-white bg-black bg-opacity-40">
+                        <div
+                            class="absolute inset-0 flex flex-col items-center justify-center text-white bg-black bg-opacity-40">
                             <h2 class="text-4xl font-bold mb-2">DISCOVER</h2>
                             <h3 class="text-2xl">OUR NEW COLLECTION</h3>
                         </div>
                     </div>
                     <div class="slide absolute w-full h-full opacity-0 transition-opacity duration-500">
                         <img src="../images/cover2.png" alt="Suzuki Parts" class="w-full h-full object-cover">
-                        <div class="absolute inset-0 flex flex-col items-center justify-center text-white bg-black bg-opacity-40">
+                        <div
+                            class="absolute inset-0 flex flex-col items-center justify-center text-white bg-black bg-opacity-40">
                             <h2 class="text-4xl font-bold mb-2">QUALITY PARTS</h2>
                             <h3 class="text-2xl">FOR YOUR JIMNY</h3>
                         </div>
                     </div>
                 </div>
-                <button class="slider-nav next absolute right-4 top-1/2 transform -translate-y-1/2 bg-black bg-opacity-50 text-white p-4 rounded-full z-10 hover:bg-opacity-75">&#10095;</button>
+                <button
+                    class="slider-nav next absolute right-4 top-1/2 transform -translate-y-1/2 bg-black bg-opacity-50 text-white p-4 rounded-full z-10 hover:bg-opacity-75">&#10095;</button>
                 <div class="slider-dots absolute bottom-4 left-1/2 transform -translate-x-1/2 flex space-x-2">
                     <span class="dot w-3 h-3 rounded-full bg-white opacity-50 cursor-pointer"></span>
                     <span class="dot w-3 h-3 rounded-full bg-white opacity-50 cursor-pointer"></span>
@@ -138,8 +149,8 @@
                 </div>
             </div>
         </div>
-    
-       
+
+
         <section class="py-12 bg-gray-50">
             <h2 class="text-3xl font-bold text-center mb-8">PARTS CATEGORIES</h2>
             <div class="container mx-auto px-4 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
@@ -150,15 +161,16 @@
                     <h3 class="text-xl font-semibold text-center">ENGINE PARTS</h3>
                     <div class="text-center text-gray-600 mt-2">&#9660;</div>
                 </div>
-                
+
                 <div class="bg-white rounded-lg shadow-lg p-6 transition-transform hover:scale-105">
                     <div class="w-24 h-24 mx-auto mb-4">
-                        <img src="../images/suspension.png" alt="Directions Suspension Train" class="w-full h-full object-contain">
+                        <img src="../images/suspension.png" alt="Directions Suspension Train"
+                            class="w-full h-full object-contain">
                     </div>
                     <h3 class="text-xl font-semibold text-center">SUSPENSION PARTS</h3>
                     <div class="text-center text-gray-600 mt-2">&#9660;</div>
                 </div>
-                
+
                 <div class="bg-white rounded-lg shadow-lg p-6 transition-transform hover:scale-105">
                     <div class="w-24 h-24 mx-auto mb-4">
                         <img src="../images/filter.png" alt="Filtration" class="w-full h-full object-contain">
@@ -166,7 +178,7 @@
                     <h3 class="text-xl font-semibold text-center">FILTRATION</h3>
                     <div class="text-center text-gray-600 mt-2">&#9660;</div>
                 </div>
-                
+
                 <div class="bg-white rounded-lg shadow-lg p-6 transition-transform hover:scale-105">
                     <div class="w-24 h-24 mx-auto mb-4">
                         <img src="../images/brake.png" alt="Freinage" class="w-full h-full object-contain">
@@ -176,23 +188,24 @@
                 </div>
             </div>
         </section>
-    
-        
-    
+
+
+
         <section class="bg-[#0A0F2C] text-white py-12">
             <div class="container mx-auto px-4 text-center">
                 <h2 class="text-3xl font-bold mb-4">40% OFF ON COMPLETE CAR SERVICE</h2>
                 <p class="mb-6 text-gray-300">Contact Us.</p>
-                <button class="bg-white text-[#0A0F2C] px-8 py-3 rounded-full font-semibold hover:bg-gray-100 transition-colors">
+                <button
+                    class="bg-white text-[#0A0F2C] px-8 py-3 rounded-full font-semibold hover:bg-gray-100 transition-colors">
                     Call Us (+216) 29 123 145
                 </button>
             </div>
         </section>
-    
-        
-    
-      
-    
+
+
+
+
+
         <section class="py-16 bg-white">
             <div class="container mx-auto px-4 text-center">
                 <h2 class="text-2xl font-bold mb-4">OUR MARQUES</h2>
@@ -213,51 +226,63 @@
                             </div>
                         </div>
                     </div>
-                    <button class="absolute left-0 top-1/2 transform -translate-y-1/2 bg-[#0A0F2C] text-white p-2 rounded-full" id="prevBtn">&#10094;</button>
-                    <button class="absolute right-0 top-1/2 transform -translate-y-1/2 bg-[#0A0F2C] text-white p-2 rounded-full" id="nextBtn">&#10095;</button>
+                    <button
+                        class="absolute left-0 top-1/2 transform -translate-y-1/2 bg-[#0A0F2C] text-white p-2 rounded-full"
+                        id="prevBtn">&#10094;</button>
+                    <button
+                        class="absolute right-0 top-1/2 transform -translate-y-1/2 bg-[#0A0F2C] text-white p-2 rounded-full"
+                        id="nextBtn">&#10095;</button>
                 </div>
-            
+
             </div>
         </section>
-    
+
         <section class="py-16">
             <div class="container mx-auto px-4">
                 <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
                     <!-- Quality -->
                     <div class="flex flex-col items-center text-center">
                         <div class="bg-[#0A0F2C] rounded-full p-6 mb-4">
-                            <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8 text-white" fill="none"
+                                viewBox="0 0 24 24" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
                             </svg>
                         </div>
                         <h3 class="text-xl font-bold mb-2">QUALITÉ ORIGINALE</h3>
                     </div>
-    
+
                     <!-- Delivery -->
                     <div class="flex flex-col items-center text-center">
                         <div class="bg-[#0A0F2C] rounded-full p-6 mb-4">
-                            <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 8h14M5 8a2 2 0 110-4h14a2 2 0 110 4M5 8v10a2 2 0 002 2h10a2 2 0 002-2V8m-9 4h4" />
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8 text-white" fill="none"
+                                viewBox="0 0 24 24" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M5 8h14M5 8a2 2 0 110-4h14a2 2 0 110 4M5 8v10a2 2 0 002 2h10a2 2 0 002-2V8m-9 4h4" />
                             </svg>
                         </div>
                         <h3 class="text-xl font-bold mb-2">LIVRAISON À DOMICILE</h3>
                     </div>
-    
+
                     <!-- Best Price -->
                     <div class="flex flex-col items-center text-center">
                         <div class="bg-[#0A0F2C] rounded-full p-6 mb-4">
-                            <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 10h4.764a2 2 0 011.789 2.894l-3.5 7A2 2 0 0115.263 21h-4.017c-.163 0-.326-.02-.485-.06L7 20m7-10V5a2 2 0 00-2-2h-.095c-.5 0-.905.405-.905.905 0 .714-.211 1.412-.608 2.006L7 11v9m7-10h-2M7 20H5a2 2 0 01-2-2v-6a2 2 0 012-2h2.5" />
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8 text-white" fill="none"
+                                viewBox="0 0 24 24" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M14 10h4.764a2 2 0 011.789 2.894l-3.5 7A2 2 0 0115.263 21h-4.017c-.163 0-.326-.02-.485-.06L7 20m7-10V5a2 2 0 00-2-2h-.095c-.5 0-.905.405-.905.905 0 .714-.211 1.412-.608 2.006L7 11v9m7-10h-2M7 20H5a2 2 0 01-2-2v-6a2 2 0 012-2h2.5" />
                             </svg>
                         </div>
                         <h3 class="text-xl font-bold mb-2">LES MEILLEURS PRIX</h3>
                     </div>
-    
+
                     <!-- Customer Service -->
                     <div class="flex flex-col items-center text-center">
                         <div class="bg-[#0A0F2C] rounded-full p-6 mb-4">
-                            <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8 text-white" fill="none"
+                                viewBox="0 0 24 24" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
                             </svg>
                         </div>
                         <h3 class="text-xl font-bold mb-2">SERVICE CLIENT</h3>
@@ -265,9 +290,9 @@
                 </div>
             </div>
         </section>
-    
-    </main>    
-    
+
+    </main>
+
     <footer class="bg-[#0A0A32] text-white py-8">
         <div class="max-w-6xl mx-auto flex flex-wrap justify-between px-6">
             <div class="w-full md:w-1/3 mb-6 md:mb-0">
@@ -278,17 +303,18 @@
                 <p class="text-contactusbody">Monday to Friday: 8h - 18h</p>
                 <p class="text-contactusbody">Saturday: 8h - 13h</p>
             </div>
-    
+
             <div class="w-full md:w-1/3 mb-6 md:mb-0">
                 <h3 class="text-Primary font-Roboto mb-3 text-footerText">Information</h3>
                 <ul class="space-y-2">
+                    <li><a href="../public/Review.html" class="text-subheading hover:text-red-400">Review</a></li>
                     <li><a href="#" class="text-subheading hover:text-red-400">Our history</a></li>
                     <li><a href="#" class="text-subheading hover:text-red-400">Contact-us</a></li>
                     <li><a href="#" class="text-subheading hover:text-red-400">Terms and Conditions</a></li>
                     <li><a href="#" class="text-subheading hover:text-red-400">About us</a></li>
                 </ul>
             </div>
-    
+
             <div class="w-full md:w-1/3 flex flex-col items-start">
                 <h3 class="text-Primary font-Roboto mb-3 text-footerText">WE ACCEPT</h3>
                 <div class="flex gap-3">
@@ -304,10 +330,11 @@
             opacity: 0;
             transition: opacity 0.5s ease-in-out;
         }
+
         .slide.active {
             opacity: 1 !important;
         }
-        
+
         .slide:first-child {
             opacity: 1;
         }
@@ -328,7 +355,7 @@
                 slide.style.opacity = '0';
             });
             dots.forEach(dot => dot.classList.remove('active'));
-            
+
             slides[index].classList.add('active');
             slides[index].style.opacity = '1';
             dots[index].classList.add('active');
@@ -382,6 +409,7 @@
             startSlideShow();
         });
     </script>
-    
+
 </body>
+
 </html>
