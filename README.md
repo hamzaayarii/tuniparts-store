@@ -9,8 +9,8 @@ TuniParts is a web project aimed at improving the online experience of buying au
 We are a team of 5 members, each responsible for two interfaces:
 
 - **Hamza**: Worked on Delivery and Tracking Order interfaces.
-- **Oussama Kaddech**: Worked on the Product Listing and Cart interfaces.
-- **Ali**: Worked on the User Authentication and Payment interfaces.
+- **Oussama Kaddech**:Pages: Login / sign up / contact
+- **Ali**: Worked on the product list and details interfaces.
 - **Souhail**: Worked on the Admin Dashboard and Order Management interfaces.
 - **Amine**: Worked on the Admin Dashboard and Order Management interfaces.
 
