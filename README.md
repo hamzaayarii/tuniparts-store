@@ -1,6 +1,6 @@
 # TuniParts Project
 
-## Documentation succincte
+## Documentation
 
 TuniParts is a web project aimed at improving the online experience of buying automotive parts in Tunisia. It provides a user-friendly interface to browse and purchase car parts with real-time delivery tracking and a unique auction experience.
 
@@ -28,24 +28,28 @@ Make sure you have installed Node.js and npm on your machine.
 
 ### Installation Steps
 Clone this repository to your local machine:
-
-  `git clone https://github.com/hamzaayarii/tuniparts-store.git`
+```bash
+  git clone https://github.com/hamzaayarii/tuniparts-store.git
+```
 
 2. Navigate to the project directory:
-   
-  `cd tuniparts`
+```bash
+  cd tuniparts
+```
 
 3. Install project dependencies using npm:
-   
-  `npm install`
+```bash
+  npm install
+```
 
 4. Once the dependencies are installed, build the project with the following command:
-   
-  `npm run build`
+```bash
+  npm run build
+```
 
 5. You can now run the project locally by executing:
    
   `npm start`
 
-Deployment
+### Deployment
 The project is set up for deployment on Vercel using GitHub integration. Once your project is pushed to GitHub, you can deploy it to Vercel easily by linking your GitHub repository to Vercel.
